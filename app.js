@@ -4,7 +4,7 @@ const http = require('http');
 const path = require('path');
 const axios = require('axios');
 const ejs = require('ejs');
-const dest = 'http://rolling-server:8080';
+const dest = 'http://192.168.56.102:8080';
 const router = express.Router();
 const bodyParser = require('body-parser');
 
