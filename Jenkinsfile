@@ -1,6 +1,6 @@
 node {
     stage('Clone repository') {
-        git credentialsId: 'github-token', url: 'https://github.com/KimChungEon/rolling-paper.git'
+        git credentialsId: 'git-token', url: 'https://github.com/KimChungEon/rolling-paper.git'
     }
 
     stage('Build image') {
