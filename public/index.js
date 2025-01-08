@@ -1,7 +1,7 @@
 
 
 const noteListDiv = document.querySelector(".note-list");
-const dest = 'http://192.168.56.103:3000';
+const dest = 'http://192.168.56.102:3000';
 
 // let noteID = 1;
 
